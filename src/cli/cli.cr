@@ -78,12 +78,12 @@ module Geera
     end
 
     def get_config_from_user : Tuple(String, String, String | Nil)
-      puts "Connect your Attlasian account by passing your company domain and credentials:\n\n"
+      puts "Connect your Atlassian account by passing your company domain and credentials:\n\n"
       print "Domain (from url: https://XXXXX.atlassian.net) where XXXXX is your company domain: "
       domain = gets.not_nil!
-      print "Attlasian email: "
+      print "Atlassian email: "
       login = gets.not_nil!
-      print "Attlasian API token: "
+      print "Atlassian API token: "
       token = (STDIN.noecho &.gets.try &.chomp).not_nil!
       puts "\n"
       return domain, login, token
