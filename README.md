@@ -22,8 +22,8 @@ $ geera configure
 Connect your Jira account by passing your company domain and credentials:
 
 Domain (from url: https://XXXXX.atlassian.net) where XXXXX is your company domain: geera
-Jira login: email@example.com
-Jira API token: (paste your token here)
+Attlasian email: email@example.com
+Attlasian API token: (paste your token here)
 Select your teams\' board:
 1. GEE - Geera project
 33. VIP - Very Interesting Project
