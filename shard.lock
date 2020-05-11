@@ -1,0 +1,18 @@
+version: 1.0
+shards:
+  cadmium_transliterator:
+    github: cadmiumcr/transliterator
+    commit: 6ee68d64869ade8f39d2ec16cae3c7b80d5a4805
+
+  poncho:
+    github: icyleaf/poncho
+    version: 0.3.0
+
+  popcorn:
+    github: icyleaf/popcorn
+    version: 0.2.2
+
+  totem:
+    github: icyleaf/totem
+    version: 0.6.1
+

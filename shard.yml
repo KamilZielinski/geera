@@ -1,0 +1,21 @@
+name: geera
+version: 0.1.0
+
+authors:
+  - Zielinski <6136794+KamilZielinski@users.noreply.github.com>
+
+targets:
+  geera:
+    main: src/geera.cr
+
+crystal: 0.34.0
+
+license: MIT
+
+dependencies:
+  totem:
+    github: icyleaf/totem
+  poncho:
+    github: icyleaf/poncho
+  cadmium_transliterator:
+    github: cadmiumcr/transliterator
