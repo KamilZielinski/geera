@@ -2,6 +2,10 @@
 
 Geera lets you quickly change branches based on Jira tickets without thinking about their names. It can find a existing branch or create new if needed.
 
+## Requirements
+- Linux or MacOS
+- GIT client installed
+
 ## Installation
 
 TODO: Write installation instructions here
@@ -42,7 +46,7 @@ Switched to a new branch 'sub-task/GEE-888-add-top-readme-description'
 
 # Branch doesn't exist locally and in Jira
 $ geera 871283712831839
-Given issue [CON-871283712831839] doesn\'t exist
+Given issue [GEE-871283712831839] doesn\'t exist
 ```
 
 ## Available commands
